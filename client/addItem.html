@@ -1,0 +1,9 @@
+<div class="container">
+  <h2>ADD ITEM</h2>
+
+  <form class="new-task" (submit)="doAddNewItem()">
+    <input [(ngModel)]="newItem.title" type="text" placeholder="Type Title" />
+    <input [(ngModel)]="newItem.message" type="text" placeholder="Type Message" />
+    <button type="submit">ADD ITEM</button>
+  </form>
+</div>
